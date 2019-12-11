@@ -50,21 +50,44 @@ body {
 .nav li {
   color: white;
   margin-right: 30px;
-  
+}
+
+.nav a {
+  text-decoration: none;
 }
 
 #features {
-  text-align: center
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#features-list {
+  
+  
 }
 
 #features ul {
   list-style: none;
   font-size: 26px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #description {
   text-align: center;
   font-size: 20px;
+  display: flex;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #photos {
@@ -174,7 +197,7 @@ body {
 }
   
 
-.container {
+.footer-container {
   display: flex;
   
 }
