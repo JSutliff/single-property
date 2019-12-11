@@ -53,8 +53,21 @@ body {
   
 }
 
+#features {
+  text-align: center
+}
+
 #features ul {
   list-style: none;
+  
+}
+
+#description {
+  text-align: center
+}
+
+#photos {
+  text-align: center;
 }
 
 #slider,
