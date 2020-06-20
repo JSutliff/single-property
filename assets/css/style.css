@@ -366,3 +366,7 @@ body {
   margin-bottom: 75px;
 }
 /* END CONTACT */
+
+@media only screen and (min-width: 700px) {
+  
+}
