@@ -11,6 +11,18 @@
 
 <body>
 
+
+  <nav class="hide">
+    <ul id="top-nav">
+      <li><a href="#features">Price & Features</a></li>
+      <li><a href="#description">Description</a></li>
+      <li><a href="#photos">Photos</a></li>
+      <li><a href="#schools">Schools</a></li>
+    </ul>
+  </nav>
+
+
+
   <!-- Hamburger Menu -->
   <div class="menu-wrap">
     <input type="checkbox" class="toggler">
@@ -35,15 +47,15 @@
   <!-- Showcase -->
   <section class="showcase">
     <div class="video-container">
-      <video src="./assets/videos/18AmblesideDr.mp4" autoplay muted loop playsinline></video>
+      <video src="./assets/videos/18AmblesideDr.mp4" autoplay muted loop></video>
     </div>
   </section>
   <!-- END SHOWCASE -->
 
   <!-- Features -->
   <section id="features">
-    <h1>18 Ambleside Dr. Belleair, Fl</h1>
-    <h2>For Sale: #3,750,000</h2>
+    <h1 id="features-address">18 Ambleside Dr. Belleair, Fl</h1>
+    <h2 id="features-price">For Sale: $3,750,000</h2>
     <ul id="features-list">
 
       <li>
@@ -91,7 +103,7 @@
         <p class="features-text">10 Car Garage</p>
       </li>
 
-      <li>
+      <li id="last-item">
         <span class="features-icon"><i class="fas fa-anchor"></i></span>
         <p class="features-text">Dock accommodates a 42 foot vessel</p>
       </li>
